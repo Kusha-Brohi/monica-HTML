@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins';
+    width: 100vw;
+
+}
+
+     @keyframes slideInLeft {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+
+header {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  animation: 1s ease-out 0s 1 slideInLeft;
+
+}
+
+section.home_section {
+
+  height: 100vh;
+  background: url(../images/homebanner.jpg) center/cover no-repeat;
+  color: white;
+
+
+}
+
+.row.align-items-center h1{
+    color: white;
+}
+
+.row.align-items-center ul{
+    color: #dbe1e7;
+}
+
+ul.top_right {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0px 21px;
+    float: right;
+}
+ul.top_right li {
+
+    padding: 0px 5px;
+    
+}
+ul.top_left {
+    list-style-type: none;
+}
+
+
+.top_nav {
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.container-fluid {
+    padding-left: 36%;
+}
+
+li.nav-item {
+    padding: 0px 10px;
+}
+
+
+
+.col-12.col-sm-12.col-md-12.align-self-center {
+    text-align: center;
+   
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 15.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+nav.navbar.navbar-expand {
+    background-color: rgba(0,0,0,.5);
+    
+}
+
+a.nav-link.active {
+    color: white;
+}
+
+
+a.nav-link {
+    color: white;
+}
+a.nav-link:hover {
+    color: #75aa19;
+}
+
+a.shop-btn {
+    background-color: #75aa19;
+    color: #ffff;
+    padding: 9px 32px;
+    border-radius: 27px;
+    width: 101%;
+    text-decoration: none;
+}
+
+
+section.why_us {
+    padding: 9%;
+    background-color: #ededed;
+}
+.round {
+    width: 74%;
+    border: 30px solid #d7d4d4;
+    border-radius: 50%;
+}
+
+.coco_img {
+    width: 100%;
+    height: 360px;
+    margin-top: 19%;
+  
+}
+        
+.para {
+    margin-left: 12%;
+}
+
+.client_review{
+    color: #00000;
+    text-align: center;
+    padding: 0% 5% 3% 5%;
+}
+
+.bottom {
+    padding-top: 101%;
+}
+
+.card.text-black {
+    background-color: #ededed;
+    width: 270px;
+    height: 378px;
+    
+}
+
+img.card-img-top {
+ 
+    padding: 5% 4% 5% 5%;
+            
+}
+
+.product_listing{
+
+    background: url(../images/Innerbanner.png);
+    background-repeat: repeat-x;
+
+}
+
+.product_detail{
+
+    color: #75aa19;
+    text-align: center;
+    padding: 0% 5% 3% 5%;
+
+    }
+
+.product_detail p{
+
+    color: #ffffff;
+}
+
+
+.numbers{
+
+    background: url(../images/number_banner.png) center/cover no-repeat;
+}
+
+.numbers h1{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+.numbers p{
+    text-align: center;
+    color: white;
+  
+}
+
+
+
+
+img.card-img-client {
+    padding: 5%;
+    border-radius: 85%;
+    
+}
+
+.shadow.p-3.mb-5.bg-body.rounded {
+    width: 370px;
+   
+}
+
+.shadow.p-3.mb-5.bg-body.rounded span{
+   color: #75aa19;
+}
+
+.newletter{
+
+    background: url(../images/newsletterbackground.png) center/cover no-repeat;
+
+}
+
+a.newletter-btn{
+    background-color: #75aa19;
+    color: #ffff;
+    padding: 13px 44px;
+    border-radius: 27px;
+    border: coral;
+    text-decoration: none;
+    border: 3px solid;
+    position: absolute;
+
+}
+
+.newletter h1{
+
+    color: #75aa19;
+    text-transform: uppercase;
+}
+
+.no-outline:focus {
+        outline: none;
+        color: #ffff;
+
+      }
+
+
+
+.newletter input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background: transparent;
+    width: 96%;
+    padding-top: 19%;
+
+
+}
+
+
+.text-small {
+  font-size: 0.9rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+
+
+footer {
+     background: #212529;
+ 
+    padding-top: 3%;
+}
+
+h5.h1.text {
+    text-transform: uppercase;
+    color: #75aa19;
+}
+
+h5.text.mb-3 {
+    text-transform: uppercase;
+    color: #75aa19;
+}
+
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #d0d0d0!important;
+}
+
+
+.bootomFooter small{
+    color:#d0d0d0!important;
+    padding: 5% 0% 0% 33%;
+
+}
+
+.line-break{
+    color: #d0d0d0!important;
+}
+
+
+/*Abouts Us */
+.innerbanner{
+
+  height: 100vh;
+  background: url(../images/Innerbanner.png) center/cover no-repeat;
+  color: white;
+
+}
+
+.AboutUs {
+    padding-top: 5%;
+}
+
+.abtimg {
+    position: absolute;
+    right: 6%;
+    top: 112%;
+}
+
+.AboutUs2 {
+    padding-bottom: 10%;
+}
+
+.ContactUs {
+    padding-bottom: 11%;
+}   
+
+
+
+
+
+
